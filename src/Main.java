@@ -141,7 +141,7 @@ public class Main {
 
         double deposit2 = 0;
         for (short i = 1; i <= 12; i++) {
-            deposit2 = (deposit2 + 29000) * 1.1;
+            deposit2 = (deposit2 + 29000) * 1.01;
             System.out.print("Месяц " + i + ", сумма накоплений равна: ");
             System.out.printf("%.2f", deposit2);
             System.out.println();
